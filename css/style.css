@@ -1,0 +1,24 @@
+body {
+  height: 2000px;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  margin-top: 1200px;
+}
+
+#p1 {
+  -webkit-transform: translateX(-800px);
+          transform: translateX(-800px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#p2 {
+  -webkit-transform: translateX(800px);
+          transform: translateX(800px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */
